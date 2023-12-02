@@ -9,7 +9,7 @@ const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="bg-[#FDF2EC] pb-5">
-      { !isOpen &&
+      { isOpen &&
      (<>
      <div className="text-3xl absolute z-10 top-6 right-8 my-auto lg:hidden" onClick={()=>setIsOpen(!isOpen)}><RxCross1 /></div>
 
