@@ -1,4 +1,3 @@
-
 const Variants:any = {
     initial:{
       opacity:0,
@@ -21,4 +20,10 @@ const Variants:any = {
         rotateX:0
       },
   } 
+  export const menu = {
+    initial: { y: '-100%' },
+    animate: { y: 0 },
+    transition: { duration: 0.3 },
+  }
+
   export default Variants
